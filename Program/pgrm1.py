@@ -20,12 +20,12 @@ factorial(n)
 
 
 def fibonacci(n1):
-    if n <= 0:
+    if n1 <= 0:
         return 1
-    elif n == 1:
+    elif n1 == 1:
         return 1
     else:
-        return fibonacci(n - 1) + fibonacci(n - 2)
+        return fibonacci(n1 - 1) + fibonacci(n1 - 2)
 
 n1 = int(input("Enter the number of terms in Fibonacci series: "))
 fibonacci(n1)
